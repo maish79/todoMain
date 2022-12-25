@@ -1,1 +1,16 @@
-<h2>hi</h2>
+<h2>TO DO</h2>
+
+<form method="POST" action="">
+    {% csrf_token %}
+    {{form.title}}
+    <input type="submit" name="create list">
+</form>
+
+{% for list in lists %}
+ <div>
+    <a href="{% url 'add' list.id %}">Add</a>
+    <a href="{% url 'delete' list.id %}">Delete</a>
+   
+    <p>{{list}}</p>
+ </div>
+{% endfor %}

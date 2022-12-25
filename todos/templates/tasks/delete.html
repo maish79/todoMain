@@ -1,0 +1,8 @@
+<p>Do you want to cancel {{item}}?</p>
+
+<a href="{% url 'one' %}">Cancel</a>
+
+<form method = "POST" action="">
+    {% csrf_token %}
+    <input type="submit" name="confirm">
+</form>
