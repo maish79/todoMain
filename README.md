@@ -33,9 +33,11 @@
 * Code Institute walkthrough projects "Hello django"
 
 
+
 # Testing
 
 * CSS Code passed using W3C CSS Validator.
+* ![lighthouse](lighthouse.png)
 
 
 ![gitpod error](error.PNG)
