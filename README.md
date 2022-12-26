@@ -28,9 +28,16 @@
 6. Set up automatic deployment
 
 # Credits
-
 ## Content
+
 * Code Institutes walkthrough projects "Hello django"
+
+# Testing
+
+* CSS Code passed using W3C CSS Validator.
+* HTML code passed using W3C HTML Validator.
+
+![gitpod error](error.PNG)
 
 
 
