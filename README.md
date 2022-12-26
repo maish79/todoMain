@@ -31,6 +31,7 @@
 ## Content
 
 * Code Institute walkthrough projects "Hello django"
+* code with Ivy
 
 
 
