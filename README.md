@@ -35,7 +35,7 @@
 # Testing
 
 * CSS Code passed using W3C CSS Validator.
-* HTML code passed using W3C HTML Validator.
+
 
 ![gitpod error](error.PNG)
 
