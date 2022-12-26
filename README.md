@@ -37,7 +37,7 @@
 # Testing
 
 * CSS Code passed using W3C CSS Validator.
-* ![lighthouse](lighthouse.png)
+ ![lighthouse](lighthouse.png)
 
 
 ![gitpod error](error.PNG)
