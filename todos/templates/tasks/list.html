@@ -3,7 +3,7 @@
 <style>
 
 	body{
-		background-color: #638CB8;
+		background-color: #63b874;
 	}
 
 	input{
@@ -31,7 +31,7 @@
 	}
 
 	.item-row{
-		background-color: #906abd;
+		background-color: #6ab1bd;
 		margin: 10px;
 		padding: 20px;
 		border-radius: 3px;
@@ -57,7 +57,7 @@
 
 {% for list in lists %}
  <div class="item-row">
-    <a class= "btn btn-sm btn-info" href="{% url 'add' list.id %}">Add</a>
+    <a class= "btn btn-sm btn-info" href="{% url 'edit' list.id %}">Edit</a>
     <a class= "btn btn-sm btn-danger" href="{% url 'delete' list.id %}">Delete</a>
 
    {% if list.completed == True %}

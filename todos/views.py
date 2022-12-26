@@ -21,7 +21,7 @@ def home(request):
     context = {'lists': lists, 'form':form}
     return render(request, 'tasks/list.html', context)
 
-def addTask(request, pk):
+def editTask(request, pk):
     task = list.objects.get(id=pk)
 
     form = listForm(instance=task)
@@ -33,7 +33,7 @@ def addTask(request, pk):
 
     context = {'form': form}
 
-    return render(request, 'tasks/add.html', context)
+    return render(request, 'tasks/edit.html', context)
 
 def deleteTask(request, pk):
     item = list.objects.get(id=pk)
