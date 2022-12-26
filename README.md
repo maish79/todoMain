@@ -30,7 +30,8 @@
 # Credits
 ## Content
 
-* Code Institutes walkthrough projects "Hello django"
+* Code Institute walkthrough projects "Hello django"
+
 
 # Testing
 
